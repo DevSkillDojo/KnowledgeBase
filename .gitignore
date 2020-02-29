@@ -1,5 +1,7 @@
 #Eclipse
 .project
+.pydevproject
+.settings/
 
 #Sphinx
 build

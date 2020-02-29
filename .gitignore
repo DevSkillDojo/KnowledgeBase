@@ -1,3 +1,9 @@
+#Eclipse
+.project
+
+#Sphinx
+build
+
 _site/
 .sass-cache/
 .jekyll-cache/

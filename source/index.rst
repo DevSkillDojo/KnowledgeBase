@@ -3,18 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DevSkillDojo KnowledgeBase's documentation!
-======================================================
+Welcome to the DevSkillDojo KnowledgeBase
+=========================================
+
+.. image:: assets/dojo.jpg
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   start_here
+   skills_framework/index
+   learning_paths/index
+   learning_resources/index

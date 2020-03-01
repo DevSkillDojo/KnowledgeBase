@@ -4,11 +4,11 @@ DSD Skills Framework
 ====================
 
 The diagram below provides a high level depiction of the DevSkillDojo Skills Framework. The intention of this framework is to provide
-a considered method for strcuturing skills. Additionally, the framework serves as a guideline to prevent one-dimentional thinking
-w.r.t skills, i.e. always equating skills with technologies.
+a considered method for structuring skills. Additionally, the framework serves as a guideline to prevent one-dimensional thinking
+w.r.t. skills, i.e. always equating skills with technologies.
 
-Key Point for understanding the purpose of the framework: Projects and product are delivered by people with capabilities.
-The dictionary definition is roughly: The ability to do <something>
+Key Point for understanding the purpose of the framework: Projects and products are delivered by people with capabilities.
+The dictionary definition of "Capability" is roughly: The ability to do <something>
 
 But it is important to give more structure to this definition, so we use the following pattern:
 

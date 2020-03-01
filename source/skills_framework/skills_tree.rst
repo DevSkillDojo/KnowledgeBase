@@ -283,7 +283,18 @@ Development
     * Search
         * ElasticSearch
         * Solr 
-        * Lucene           
+        * Lucene  
+    * Structured File Formats         
+        * XML
+            * XML
+            * XSLT
+            * XSD
+        * JSON
+        * YAML 
+    * Code Quality 
+        * Sonar
+        * Checkstyle  
+      
 
 Testing
 ~~~~~~~
@@ -427,6 +438,10 @@ Software
    * Moodle  
    
 TODO  
+
+Apache POI
+
+Freemarker
 
 Cloud APIs
 ~~~~~~~~~~

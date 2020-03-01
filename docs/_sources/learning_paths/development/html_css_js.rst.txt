@@ -31,8 +31,24 @@ TODO
 
 Practical projects
 ------------------
-Responsive Cards
-
+* Basic screen skeleton 1: Header with menu items
+    * Header with menu items
+    * Related to: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/adjust-the-tone-of-a-color
+* Basic screen skeleton 2: 
+    * Add profile link and image in the right corner
+    * Add footer br with smallprint
+* Basic screen skeleton 3:
+    * Add hover capability on menu items
+    * Related to: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/use-the-css-transform-scale-property-to-scale-an-element-on-hover
+    * Add pages for all menu items and profile page (subtle background pattern for pages)
+* CSS Shapes
+    * Crescent moon
+    * Heart: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html
+* Responsive Cards
+    * Ruond corners
+    * Shadows
+    * Heading, image, description and Buy Now button on each card
+* FreeCodeCamp Responsive web design projects
 
 
 Resources found

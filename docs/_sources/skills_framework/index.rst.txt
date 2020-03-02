@@ -8,7 +8,7 @@ Skills Framework
    :caption: Contents:
 
    dsd_skills_framework
-   metamodel
+   domain_model
    skills_tree
 
 

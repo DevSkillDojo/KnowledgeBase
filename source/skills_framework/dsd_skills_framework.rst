@@ -20,5 +20,5 @@ A CAPABILITY is generally:
 
 .. image:: ../assets/HighLevel-SkillsFramework.png
 
-Further detail of the framework is provided in the metamodel and skills ontology (documented separately)
+Further detail of the framework is provided in the domain model and skills ontology (documented separately)
 

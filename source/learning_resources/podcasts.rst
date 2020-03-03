@@ -3,14 +3,17 @@
 Podcasts
 ========
 
-syntax.fm (https://syntax.fm/)
+**syntax.fm (https://syntax.fm/)**
+
 * A Tasty Treat Podcast for Web Developers
 
-The Changelog (https://changelog.com/podcast)
+**The Changelog (https://changelog.com/podcast)**
+
 * Conversations with the hackers, leaders, and innovators of software development.
 * Expect in-depth interviews with the best and brightest in software engineering, open source, and leadership. This is a polyglot podcast. All programming languages, platforms, and communities are welcome. Open source moves fast. Keep up.
 
-JS Party (https://changelog.com/jsparty)
+**JS Party (https://changelog.com/jsparty)**
+
 * A community celebration of JavaScript and the web.
 * Topics discussed include the web platform (Chrome, Safari, Edge, Firefox, Brave, etc), front-end frameworks (React, Ember, Angular, Vue, etc), Node.js, web animation, SVG, robotics, IoT, and much more. If JavaScript and/or the web touch your life, this show’s for you.
 

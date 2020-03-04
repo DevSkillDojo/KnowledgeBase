@@ -84,7 +84,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../../start_here.html">Start Here</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../skills_framework/index.html">Skills Framework</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Learning Paths</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Learning Path :: Development : AEM</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Learning Path :: Development : AEM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vanilla-apache-sling">Vanilla Apache Sling</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="html_css_js.html">Learning Path :: Development : HTML, CSS and JS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../analysis/uml.html">Learning Path :: Analysis : UML</a></li>
 </ul>
@@ -158,7 +161,100 @@
             
   <div class="section" id="learning-path-development-aem">
 <span id="aem"></span><h1>Learning Path :: Development : AEM<a class="headerlink" href="#learning-path-development-aem" title="Permalink to this headline">¶</a></h1>
-<p>TODO</p>
+<p>TODO - This learning path is still under development. If you would like to add any details, references or ideas, please submit a pull request</p>
+<ul class="simple">
+<li>Overview - The core technologies in AEM</li>
+<li>Overview - The roles on an AEM project</li>
+<li>Background - Html5</li>
+<li>Background - Javascript</li>
+<li>Background - Css</li>
+<li>Background - Jquery</li>
+<li>Background - Bootstrap</li>
+<li>Background - Java</li>
+<li>Background - Maven</li>
+<li>Background - Servlets</li>
+<li>Background - Java logging</li>
+<li>Background - JMX</li>
+<li>Background - Jaas</li>
+<li>Background - Apache http</li>
+<li>Background - Ssl</li>
+<li>Background - James mail (For local email dev)</li>
+<li>Background - Ldap</li>
+<li>Background - Docker (For local environment prep)</li>
+<li>Background - Docker compose (For local environment prep)</li>
+<li>Background - Spring rest services (Because you are almost 100% certain to have to build some service that AEM can consume)</li>
+<li>Beginner - setting up the core prerequisites (JDK, Maven)</li>
+<li>Beginner - Starting up AEM for the first time</li>
+<li>Beginner - Overview of some basic AEM admin interfaces</li>
+<li>Beginner - WKND tutorial</li>
+<li>Beginner - Exploring the Felix console</li>
+<li>Beginner - Exploring CRX DE</li>
+<li>Beginner Project 1 - Your first AEM project</li>
+<li>Beginner Project 1 - Create your own application with Maven</li>
+<li>Beginner Project 1 - Basic Sling UI with Sightly (No authoring)</li>
+<li>Beginner Project 1 - Basic Servlet</li>
+<li>Beginner Project 1 - OSGi Service</li>
+<li>Beginner Project 1 - JCR Basics. Adding, Reading, Updating and Deleting nodes to the JCR (in service)</li>
+<li>Beginner Project 1 - JCR Queries from CRX</li>
+<li>Beginner Project 1 - JCR Queries from Java</li>
+<li>Beginner Project 1 - Adding Sling models</li>
+<li>Beginner Project 1 - Adding Base Content from UI.Content</li>
+<li>Beginner Project 2 - Setting up a full(ish) environment</li>
+<li>Beginner Project 2 - Preparing an LDAP server with docker</li>
+<li>Beginner Project 2 - Adding LDAP login to AEM</li>
+<li>Beginner Project 2 - Adding SSL to AEM</li>
+<li>Beginner Project 2 - Adding a Dispatcher</li>
+<li>Beginner Project 3 - Creating authorable components</li>
+<li>Beginner Project 3 - Understanding the role of the author vs the developer</li>
+<li>Beginner Project 3 - Creating Page templates</li>
+<li>Beginner Project 3 - Allowing authors to create pages</li>
+<li>Beginner Project 3 - Authoring pages with OOTB components</li>
+<li>Beginner Project 3 - Controlling what authors can do an a page</li>
+<li>Beginner Project 3 - Controling what pages authors can create</li>
+<li>Beginner Project 3 - Creating a navigation bar component in sightly</li>
+<li>Beginner Project 3 - Publishing authored content</li>
+<li>Beginner Project 4 - Tools of the Trade</li>
+<li>Beginner Project 4 - Eclipse AEM tools. Push and pull from AEM</li>
+<li>Beginner Project 4 - Brackets for easy UI synching</li>
+<li>Beginner Project 4 - VLT</li>
+<li>Beginner Project 4 - Configuring VLT filters</li>
+<li>Beginner Project 4 - BND and the Maven Bundle Plugin</li>
+<li>Beginner Project 4 - Understanding the Adobe profiles in Maven</li>
+<li>Intermediate Project 1</li>
+<li>Intermediate Project 2 - ACS Commons</li>
+<li>Intermediate - Osgi - Karaf book</li>
+<li>Intermediate - Request processing in Sling</li>
+<li>Intermediate - Vanilla Sling application</li>
+<li>Intermediate - Vanilla Jackrabbit application</li>
+<li>Intermediate - AEM Email service</li>
+<li>Intermediate - Servlet filters</li>
+<li>Intermediate - JCR versioning</li>
+<li>Intermediate - JCR permissions</li>
+<li>Advanced - Adding checkstyle to your project</li>
+<li>Intermediate - Configuring Dispatcher caching</li>
+</ul>
+<div class="section" id="vanilla-apache-sling">
+<h2>Vanilla Apache Sling<a class="headerlink" href="#vanilla-apache-sling" title="Permalink to this headline">¶</a></h2>
+<p>The steps described below would be very useful if combined in a GitHub-driven video series</p>
+<ul class="simple">
+<li>Download and run sling</li>
+<li>Content and apps using curl and resource explorer</li>
+<li>Mvn content project</li>
+<li>Mvn bundle project</li>
+<li>Setting up eclipse to connect to sling</li>
+<li>Building a servlet</li>
+<li>Building an OSGI component that interacts with the JCR</li>
+<li>Putting the serlvet and osgi componenet together. Using postman to call it</li>
+<li>Adding an HTL front-end</li>
+<li>Using a sling model with the HTL feont end</li>
+<li>Setting up easy front end code synch solution (visual studio code) ?</li>
+<li>Setting up vault</li>
+<li>Adding a scheduler</li>
+<li>JCR indexing</li>
+<li>Integration testing</li>
+<li>Adding configurations</li>
+</ul>
+</div>
 </div>
 
 

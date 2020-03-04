@@ -1,21 +1,16 @@
-.. content_providers
+.. _online_courses:
 
-Content Providers
-=================
+Online Courses
+==============
 
+* https://learning.linkedin.com/
 * Udemy
+
 * https://egghead.io/
 * https://scrimba.com/
 * https://www.freecodecamp.org/
 * https://www.codecademy.com/
 * educative.io
 * https://www.bitdegree.org
-* TODO
+* https://scotch.io/courses
 
-
-* https://www.algoexpert.io/product
-
-
-alligator.io
-mkyong
-eugen

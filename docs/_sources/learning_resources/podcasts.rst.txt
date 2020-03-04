@@ -3,6 +3,10 @@
 Podcasts
 ========
 
+**This week in startups (https://thisweekinstartups.com/)**
+
+* Supporting entrepreneurs & inspiring innovation.
+
 **syntax.fm (https://syntax.fm/)**
 
 * A Tasty Treat Podcast for Web Developers

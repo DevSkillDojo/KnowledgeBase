@@ -29,6 +29,8 @@ Concepts and Principles
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * Software Estimation
+* Enterprise Integration Patterns
+* Design Patterns
 
 TODO
 

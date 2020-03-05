@@ -10,5 +10,6 @@ Skills Framework
    dsd_skills_framework
    domain_model
    skills_tree
+   skill_details/index
 
 

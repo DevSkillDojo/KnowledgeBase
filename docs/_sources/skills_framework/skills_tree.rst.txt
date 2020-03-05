@@ -3,7 +3,7 @@
 Skills Tree
 ===========
 
-Note, this skills tree is the base of the skills framework which will become the core of the company.
+Note, this skills tree is the base of the skills framework which will become the core of the offering.
 It lists and classifies skills - however, to build a comprehensive list requires sifting through a lot of
 junk. The result is that I'm adding lists of things from many sources.
 
@@ -20,7 +20,10 @@ To determine if something is actually a skill, we ask the following questions:
 Eventually all skills should be fully defined
     
 * Not yet classified
-    * TODO
+   * Temporarily list any unclassified skills here
+   * Optimization ??
+   * Problem-solving ??
+   * Restructuring ??
     
 Knowledge
 ---------
@@ -31,8 +34,6 @@ Concepts and Principles
 * Software Estimation
 * Enterprise Integration Patterns
 * Design Patterns
-
-TODO
 
 Standards
 ~~~~~~~~~
@@ -56,70 +57,46 @@ tools and technologies category, with some type of a relationship.
 
 Architecture and Design
 ~~~~~~~~~~~~~~~~~~~~~~~
-
-TODO
+* TOGAF
+* Zachman Framework for Enterprise Architecture
+* 4+1 Architecture Framework
+* C4 Model
+* Archimate
+* UML
+* Technical Documentation
+* TODO
 
 Analysis and Experience Design
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-TODO
+References:
+* https://www.thebalancecareers.com/analytical-skills-list-2063729
 
-* Analysis (DRAFT)
-   * Ref: https://www.thebalancecareers.com/analytical-skills-list-2063729
-   * Stakeholder Map
-   * Journey Map
-   * Stakeholder analysis (RACI matrix, onion diagram, brainstorming)
+* Strategic Planning
+   * Value Chain Analysis
    * SWOT Analysis
    * Business Model Canvas
-   * Use Case
+   * TODO
+
+* Requirements Management
+   * TODO
+
+* Analysis (DRAFT)
+   * Brainstorming 
+   * Stakeholder Mapping
+   * Journey Mapping
+   * Stakeholder analysis (RACI matrix, onion diagram, brainstorming)
+   * Use Cases
    * User Stories
    * BDD
    * Domain Modelling
    * Prototyping
 
-* Creativity (DRAFT)
-   * Ref: https://www.thebalancecareers.com/analytical-skills-list-2063729
-   * Brainstorming
-   * Collaboration
-   * Optimization
-   * Predictive Modeling
-   * Problem-solving
-   * Restructuring
-   * Strategic Planning
-   * Integration
-
-* Critical Thinking (DRAFT)
-    * Ref: https://www.thebalancecareers.com/analytical-skills-list-2063729
-    * Process Management
-    * Ongoing Improvement
-    * Auditing
-    * Benchmarking
-    * Big Data Analytics
-    * Business Intelligence
-    * Calculating
-    * Case Analysis
-    * Causal Relationships
-    * Classifying
-    * Comparative Analysis
-    * Computing
-    * Correlation
-    * Decision-making
-    * Deductive Reasoning
-    * Inductive Reasoning
-    * Diagnostics
-    * Dissecting(??)
-    * Evaluating
-    * Record-keeping
-    * Data Interpretation
-    * Judgment
-    * Prioritization
-    * Troubleshooting
-    * Attention to Detail
+* Process Management
+   * BPMN
+   * TODO
 
 * Data Analysis (DRAFT)
-    * Ref: https://www.thebalancecareers.com/analytical-skills-list-2063729
-    * Business Analysis
-    * SWOT Analysis
     * Cost Analysis
     * Credit Analysis
     * Critical Analysis
@@ -136,21 +113,16 @@ TODO
     * Return on Investment (ROI)
     * Rhetorical Analysis
     * Scenario Analysis
+    * Benchmarking ??
+    * Case Analysis ??
+    * Causal Relationships ??
 
-* Research (DRAFT)
-    * Ref: https://www.thebalancecareers.com/analytical-skills-list-2063729
-    * Investigation
-    * Metrics
-    * Data collection
-    * Prioritization
-    * Data Entry
-    * Taking Inventory
-    * Checking for Accuracy
-
+* Business Analytics??
+* Data Analytics??
+* Business Intelligence??
 
 Development
 ~~~~~~~~~~~
-
 
 * Code Editors
    * Visual Studio Code
@@ -296,7 +268,6 @@ Development
     * Code Quality 
         * Sonar
         * Checkstyle  
-      
 
 Testing
 ~~~~~~~
@@ -312,7 +283,6 @@ TODO
 
 Planning and Tracking
 ~~~~~~~~~~~~~~~~~~~~~
-
 3-Point Estimation
 
 TODO
@@ -375,7 +345,6 @@ Deployment and Infrastructure
 
 TODO
 
-
 Business Skills
 ---------------
 
@@ -399,6 +368,8 @@ TODO
 Finance
 ~~~~~~~
 
+    * Auditing ??
+
 TODO
 
    * Budgeting
@@ -407,6 +378,9 @@ Creative
 ~~~~~~~~
 
 TODO
+
+Management and Coordination
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Tools and Technologies
 ----------------------
@@ -471,6 +445,8 @@ TODO
 
 People Skills
 ~~~~~~~~~~~~~
+
+* Collaboration ??
 
 TODO
 

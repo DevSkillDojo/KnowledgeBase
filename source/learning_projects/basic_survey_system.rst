@@ -7,19 +7,21 @@ Introduction
 ------------
 
 What are learning projects:
-* The purpose of learning projects is to allow learners to build a real-world solution in a guided manner, but without the detailed
-step-by-step instructions that are typically found in online tutorials. 
+
+* The purpose of learning projects is to allow learners to build a real-world solution in a guided manner, but without the detailed step-by-step instructions that are typically found in online tutorials. 
 * Instead, the solution expectations are described and the learner needs to find there own way.
 
 If you get entirely stuck, the source code for each stage of the project is available on the GitHub project
 
 Level: Beginner/Intermediate
+
 * This learning project is designed from the ground up to assist the learner with assembling a full solution based on multiple components.
 * It is assumed that the learned has used most of the component solution technologies in isolation, but still need better guidance in how to use them together
 
 The project may later be extended into a series which will improve the front-end capability 
 
 The technology that will be used are:
+
 * Git and GitHub
 * MySQL database
 * SpringBoot (Java) Service
@@ -98,6 +100,7 @@ Stage 1 - Create a new git repo
 Every project begins with a Git repository. We will be using GitHub for hosting our repository.
 
 Goals for stage 1:
+
 * Fork your base repository on GitHub (Base repo URL would've been sent to you on registration to this module)
 * Clone the repo to your local machine.
 
@@ -110,6 +113,7 @@ As they say: A journey of a thousand miles begins for a first step.
 Our first form will be a very basic short term insurance quote request form. It allows you to request a quote for homeowners insurance.
 
 The fields that should appear on the form are:
+
 * Customer Name
 * Customer Surname
 * Customer Id, Passport or Social Security number
@@ -124,6 +128,7 @@ The fields that should appear on the form are:
 TODO - Details to follow
 
 Goals for stage 2:
+
 * In the repo, create a folder called src/web
 * Create a new file for our form called "basic-claim.html"
 * Create an HTML form, with a single submit button on the html page
@@ -138,12 +143,14 @@ The next step is to build a SpringBoot POST method to which the form data will b
 NOT be saving the data to a DB, we will only log it to the system log.
 
 Notes:
+
 * Still just submit dummy data into the payload field
 * Use Postman to test first
 
 TODO - Details to follow
 
 Goals for stage 3:
+
 * TODO
 
 If you get stuck, feel free to look at the reference implementation here: TODO 
@@ -175,6 +182,7 @@ Instead of building this table using a GUI of some sort, we will create SQL DDL 
 This script can then easily be executed against a database to produce the database according to our needs.
 
 Goals for stage 5:
+
 * In the repo, create a folder called "database"
 * In this folder, create a SQL DDL script called "create_db.sql"
 * Create a SQL statement that will create the table as described above
@@ -186,6 +194,7 @@ Stage 6: Link SpringBoot service to DB
 TODO - Details to follow
 
 Notes:
+
 * Base64 encoding of the form payload
 
 Stage 7: Add a SpringBoot service for getting all returns
@@ -193,6 +202,7 @@ Stage 7: Add a SpringBoot service for getting all returns
 TODO - Details to follow
 
 Notes:
+
 * Test with Postman
 
 Stage 8: Add screen for showing all returns
@@ -200,6 +210,7 @@ Stage 8: Add screen for showing all returns
 TODO - Details to follow
 
 Notes:
+
 * JQuery to build page at runtime
 
 Stage 9: Add SpringBoot method for getting details of one return
@@ -207,6 +218,7 @@ Stage 9: Add SpringBoot method for getting details of one return
 TODO - Details to follow
 
 Notes:
+
 * Base64 decoding of the form payload
 * Test with Postman
 

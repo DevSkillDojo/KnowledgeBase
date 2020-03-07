@@ -16,3 +16,4 @@ Welcome to the DevSkillDojo KnowledgeBase
    skills_framework/index
    learning_paths/index
    learning_resources/index
+   learning_projects/index

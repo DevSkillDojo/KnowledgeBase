@@ -1,0 +1,518 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Learning Project: Basic Survey System &mdash; DevSkillDojo KnowledgeBase 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/devskilldojo_theme.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Learning Projects" href="index.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> DevSkillDojo KnowledgeBase
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../start_here.html">Start Here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../skills_framework/index.html">Skills Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning_paths/index.html">Learning Paths</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning_resources/index.html">Learning Resources</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Learning Projects</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Learning Project: Basic Survey System</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#solution-overview">Solution Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-1-create-a-new-git-repo">Stage 1 - Create a new git repo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-2-building-a-screen-for-our-first-form">Stage 2 - Building a screen for our first form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-3-springboot-service-method-post">Stage 3: SpringBoot Service method (POST)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-4-link-the-html-front-end-button-with-post-service">Stage 4: Link the HTML front-end button with POST service</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-5-create-a-database-using-a-ddl-script">Stage 5: Create a Database using a DDL script</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-6-link-springboot-service-to-db">Stage 6: Link SpringBoot service to DB</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-7-add-a-springboot-service-for-getting-all-returns">Stage 7: Add a SpringBoot service for getting all returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-8-add-screen-for-showing-all-returns">Stage 8: Add screen for showing all returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-9-add-springboot-method-for-getting-details-of-one-return">Stage 9: Add SpringBoot method for getting details of one return</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-10-add-screen-for-displaying-a-return-as-read-only">Stage 10: Add screen for displaying a return as read-only</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-11-add-index-page">Stage 11: Add index page</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stage-12-style-all-pages-consistently">Stage 12: Style all pages consistently</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ideas-for-further-improvement">Ideas for further improvement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#project-development-notes">Project Development Notes:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DevSkillDojo KnowledgeBase</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Learning Projects</a> &raquo;</li>
+        
+      <li>Learning Project: Basic Survey System</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/learning_projects/basic_survey_system.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="learning-project-basic-survey-system">
+<span id="basic-survey-system"></span><h1>Learning Project: Basic Survey System<a class="headerlink" href="#learning-project-basic-survey-system" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>What are learning projects:
+* The purpose of learning projects is to allow learners to build a real-world solution in a guided manner, but without the detailed
+step-by-step instructions that are typically found in online tutorials.
+* Instead, the solution expectations are described and the learner needs to find there own way.</p>
+<p>If you get entirely stuck, the source code for each stage of the project is available on the GitHub project</p>
+<p>Level: Beginner/Intermediate
+* This learning project is designed from the ground up to assist the learner with assembling a full solution based on multiple components.
+* It is assumed that the learned has used most of the component solution technologies in isolation, but still need better guidance in how to use them together</p>
+<p>The project may later be extended into a series which will improve the front-end capability</p>
+<p>The technology that will be used are:
+* Git and GitHub
+* MySQL database
+* SpringBoot (Java) Service
+* Postman
+* JUnit
+* TBD - Jackson
+* TBD - Hibernate (Perhaps pure JDBC)
+* TBD - Maven
+* HTML5 + CSS3 Front-End
+* JQuery
+* Your favourite Java IDE</p>
+<p>The table below provides some useful learning resources for each of the skills that will be used in this project:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="27%" />
+<col width="34%" />
+<col width="39%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Technology</th>
+<th class="head">Proficiency Level</th>
+<th class="head">Learning Resource(s)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>HTML5</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>CSS3</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>JavaScript</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>JQuery</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Java</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>SpringBoot</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>REST Services</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>SQL</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>MySQL</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Hibernate</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>Maven</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Jackson</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>JDBC</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Git</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>GitHub</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Postman</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td>JUnit</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="solution-overview">
+<h2>Solution Overview<a class="headerlink" href="#solution-overview" title="Permalink to this headline">¶</a></h2>
+<p>The solution that we will be building is a very simplistic survey system that will allow end users to capture a submission
+for a survey, view a list of submissions and also view the details of other submissions. This type of system may be used for various
+purposes, but in our case, let’s assume it will be used by an insurance company who received policy applications, adjustments and claims
+from their customers.</p>
+<p>The diagram below provides an overview of the screen flow that will be created:</p>
+<p>TODO - Add screen flow. Pretty much breadboards of what we will be building</p>
+<p>To make the solution as simple as possible, the following functionality is excluded from scope:</p>
+<ul class="simple">
+<li>Login, i.e. the app will be open to unauthenticated users. This means everybody will be able to see everyubody else’s submissions</li>
+<li>Editing a form after it has been submitted</li>
+<li>Multiple forms, i.e. the initial solution will contain only one form</li>
+</ul>
+</div>
+<div class="section" id="stage-1-create-a-new-git-repo">
+<h2>Stage 1 - Create a new git repo<a class="headerlink" href="#stage-1-create-a-new-git-repo" title="Permalink to this headline">¶</a></h2>
+<p>Every project begins with a Git repository. We will be using GitHub for hosting our repository.</p>
+<p>Goals for stage 1:
+* Fork your base repository on GitHub (Base repo URL would’ve been sent to you on registration to this module)
+* Clone the repo to your local machine.</p>
+</div>
+<div class="section" id="stage-2-building-a-screen-for-our-first-form">
+<h2>Stage 2 - Building a screen for our first form<a class="headerlink" href="#stage-2-building-a-screen-for-our-first-form" title="Permalink to this headline">¶</a></h2>
+<p>Although the system will be designed to handle multiple form types, we need to start with one.</p>
+<p>As they say: A journey of a thousand miles begins for a first step.</p>
+<p>Our first form will be a very basic short term insurance quote request form. It allows you to request a quote for homeowners insurance.</p>
+<p>The fields that should appear on the form are:
+* Customer Name
+* Customer Surname
+* Customer Id, Passport or Social Security number
+* Physical address line 1
+* Physical address line 2
+* City
+* State or Province
+* Country
+* Postal code
+* Property value amount (in USD)</p>
+<p>TODO - Details to follow</p>
+<p>Goals for stage 2:
+* In the repo, create a folder called src/web
+* Create a new file for our form called “basic-claim.html”
+* Create an HTML form, with a single submit button on the html page
+* Commit and push your changes to git
+* Send a Pull Request</p>
+<p>If you get stuck, feel free to look at the reference implementation here: TODO</p>
+</div>
+<div class="section" id="stage-3-springboot-service-method-post">
+<h2>Stage 3: SpringBoot Service method (POST)<a class="headerlink" href="#stage-3-springboot-service-method-post" title="Permalink to this headline">¶</a></h2>
+<p>The next step is to build a SpringBoot POST method to which the form data will be submitted. For now we will
+NOT be saving the data to a DB, we will only log it to the system log.</p>
+<p>Notes:
+* Still just submit dummy data into the payload field
+* Use Postman to test first</p>
+<p>TODO - Details to follow</p>
+<p>Goals for stage 3:
+* TODO</p>
+<p>If you get stuck, feel free to look at the reference implementation here: TODO</p>
+</div>
+<div class="section" id="stage-4-link-the-html-front-end-button-with-post-service">
+<h2>Stage 4: Link the HTML front-end button with POST service<a class="headerlink" href="#stage-4-link-the-html-front-end-button-with-post-service" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+</div>
+<div class="section" id="stage-5-create-a-database-using-a-ddl-script">
+<h2>Stage 5: Create a Database using a DDL script<a class="headerlink" href="#stage-5-create-a-database-using-a-ddl-script" title="Permalink to this headline">¶</a></h2>
+<p>In-line with our goal for simplicity, the initial database will comprise a single table. The table will contain one row for each
+submitted return. Note: We will be calling each submitted survey a RETURN, so the table will be called Returns</p>
+<p>The table will have the fields listed below:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="9%" />
+<col width="80%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Data Type</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>ReturnId</td>
+<td>UUID</td>
+<td>A universally unique id for the the return</td>
+</tr>
+<tr class="row-odd"><td>FormType</td>
+<td>String</td>
+<td>A reference to the type of form that was submitted.</td>
+</tr>
+<tr class="row-even"><td>DataPayload</td>
+<td>String</td>
+<td>All the data that was captured in the form, stored as a single JSON string encoded as Base64</td>
+</tr>
+<tr class="row-odd"><td>Timestamp</td>
+<td>DataTime</td>
+<td>The exact moment in time when the return was submitted</td>
+</tr>
+</tbody>
+</table>
+<p>Instead of building this table using a GUI of some sort, we will create SQL DDL script which describes the DB table.
+This script can then easily be executed against a database to produce the database according to our needs.</p>
+<p>Goals for stage 5:
+* In the repo, create a folder called “database”
+* In this folder, create a SQL DDL script called “create_db.sql”
+* Create a SQL statement that will create the table as described above</p>
+<p>If you get stuck, feel free to look at the reference implementation here: TODO</p>
+</div>
+<div class="section" id="stage-6-link-springboot-service-to-db">
+<h2>Stage 6: Link SpringBoot service to DB<a class="headerlink" href="#stage-6-link-springboot-service-to-db" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+<p>Notes:
+* Base64 encoding of the form payload</p>
+</div>
+<div class="section" id="stage-7-add-a-springboot-service-for-getting-all-returns">
+<h2>Stage 7: Add a SpringBoot service for getting all returns<a class="headerlink" href="#stage-7-add-a-springboot-service-for-getting-all-returns" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+<p>Notes:
+* Test with Postman</p>
+</div>
+<div class="section" id="stage-8-add-screen-for-showing-all-returns">
+<h2>Stage 8: Add screen for showing all returns<a class="headerlink" href="#stage-8-add-screen-for-showing-all-returns" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+<p>Notes:
+* JQuery to build page at runtime</p>
+</div>
+<div class="section" id="stage-9-add-springboot-method-for-getting-details-of-one-return">
+<h2>Stage 9: Add SpringBoot method for getting details of one return<a class="headerlink" href="#stage-9-add-springboot-method-for-getting-details-of-one-return" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+<p>Notes:
+* Base64 decoding of the form payload
+* Test with Postman</p>
+</div>
+<div class="section" id="stage-10-add-screen-for-displaying-a-return-as-read-only">
+<h2>Stage 10: Add screen for displaying a return as read-only<a class="headerlink" href="#stage-10-add-screen-for-displaying-a-return-as-read-only" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+</div>
+<div class="section" id="stage-11-add-index-page">
+<h2>Stage 11: Add index page<a class="headerlink" href="#stage-11-add-index-page" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+</div>
+<div class="section" id="stage-12-style-all-pages-consistently">
+<h2>Stage 12: Style all pages consistently<a class="headerlink" href="#stage-12-style-all-pages-consistently" title="Permalink to this headline">¶</a></h2>
+<p>TODO - Details to follow</p>
+</div>
+<div class="section" id="ideas-for-further-improvement">
+<h2>Ideas for further improvement<a class="headerlink" href="#ideas-for-further-improvement" title="Permalink to this headline">¶</a></h2>
+<p>As mentioned earlier, this application was kept simple on purpose. However, there are many ways in which we can improve on it.
+These improvements will be explored is future bolt-on project, but are listed here for the reader’s interest:</p>
+<ul class="simple">
+<li>Add user registration and login</li>
+<li>Store information about which user submitted each form. A user should only be able to see their own forms</li>
+<li>More impressive front-end using a modern front-end framework like React</li>
+<li>Adding multiple form types</li>
+<li>Downloading a PDF version of your submitted form</li>
+<li>Getting an email confirmation once a form is submitted</li>
+<li>Allow users to add attachments to forms</li>
+<li>Refactor the SpringBoot application to use proper Services</li>
+<li>Add server-side validations</li>
+<li>And much more</li>
+</ul>
+</div>
+<div class="section" id="project-development-notes">
+<h2>Project Development Notes:<a class="headerlink" href="#project-development-notes" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>The flexibility of a document-based DB may be preferable here. Perhaps a Mongo instead of a MySQL DB</li>
+<li>Learners should submit a pull request for format review, but this requires that they fork a base repo</li>
+<li>Test the solution with Senior engineers</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Learning Projects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Greg Fullard
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

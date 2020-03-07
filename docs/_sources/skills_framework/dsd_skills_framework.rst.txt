@@ -21,7 +21,7 @@ A CAPABILITY is generally:
  * Using one or more TOOLS or TECHNOLOGIES
  * By a person with a set of SOFT SKILLS
 
-.. image:: ../assets/HighLevel-SkillsFramework.png
+.. image:: ../assets/DevSkillDojo_Skills_Framework.png
 
 Further detail of the framework is provided in the domain model and skills ontology (documented separately)
 

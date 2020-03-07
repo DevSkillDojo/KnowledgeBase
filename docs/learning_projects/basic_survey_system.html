@@ -176,27 +176,32 @@
 <span id="basic-survey-system"></span><h1>Learning Project: Basic Survey System<a class="headerlink" href="#learning-project-basic-survey-system" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>What are learning projects:
-* The purpose of learning projects is to allow learners to build a real-world solution in a guided manner, but without the detailed
-step-by-step instructions that are typically found in online tutorials.
-* Instead, the solution expectations are described and the learner needs to find there own way.</p>
+<p>What are learning projects:</p>
+<ul class="simple">
+<li>The purpose of learning projects is to allow learners to build a real-world solution in a guided manner, but without the detailed step-by-step instructions that are typically found in online tutorials.</li>
+<li>Instead, the solution expectations are described and the learner needs to find there own way.</li>
+</ul>
 <p>If you get entirely stuck, the source code for each stage of the project is available on the GitHub project</p>
-<p>Level: Beginner/Intermediate
-* This learning project is designed from the ground up to assist the learner with assembling a full solution based on multiple components.
-* It is assumed that the learned has used most of the component solution technologies in isolation, but still need better guidance in how to use them together</p>
+<p>Level: Beginner/Intermediate</p>
+<ul class="simple">
+<li>This learning project is designed from the ground up to assist the learner with assembling a full solution based on multiple components.</li>
+<li>It is assumed that the learned has used most of the component solution technologies in isolation, but still need better guidance in how to use them together</li>
+</ul>
 <p>The project may later be extended into a series which will improve the front-end capability</p>
-<p>The technology that will be used are:
-* Git and GitHub
-* MySQL database
-* SpringBoot (Java) Service
-* Postman
-* JUnit
-* TBD - Jackson
-* TBD - Hibernate (Perhaps pure JDBC)
-* TBD - Maven
-* HTML5 + CSS3 Front-End
-* JQuery
-* Your favourite Java IDE</p>
+<p>The technology that will be used are:</p>
+<ul class="simple">
+<li>Git and GitHub</li>
+<li>MySQL database</li>
+<li>SpringBoot (Java) Service</li>
+<li>Postman</li>
+<li>JUnit</li>
+<li>TBD - Jackson</li>
+<li>TBD - Hibernate (Perhaps pure JDBC)</li>
+<li>TBD - Maven</li>
+<li>HTML5 + CSS3 Front-End</li>
+<li>JQuery</li>
+<li>Your favourite Java IDE</li>
+</ul>
 <p>The table below provides some useful learning resources for each of the skills that will be used in this project:</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -304,45 +309,55 @@ from their customers.</p>
 <div class="section" id="stage-1-create-a-new-git-repo">
 <h2>Stage 1 - Create a new git repo<a class="headerlink" href="#stage-1-create-a-new-git-repo" title="Permalink to this headline">¶</a></h2>
 <p>Every project begins with a Git repository. We will be using GitHub for hosting our repository.</p>
-<p>Goals for stage 1:
-* Fork your base repository on GitHub (Base repo URL would’ve been sent to you on registration to this module)
-* Clone the repo to your local machine.</p>
+<p>Goals for stage 1:</p>
+<ul class="simple">
+<li>Fork your base repository on GitHub (Base repo URL would’ve been sent to you on registration to this module)</li>
+<li>Clone the repo to your local machine.</li>
+</ul>
 </div>
 <div class="section" id="stage-2-building-a-screen-for-our-first-form">
 <h2>Stage 2 - Building a screen for our first form<a class="headerlink" href="#stage-2-building-a-screen-for-our-first-form" title="Permalink to this headline">¶</a></h2>
 <p>Although the system will be designed to handle multiple form types, we need to start with one.</p>
 <p>As they say: A journey of a thousand miles begins for a first step.</p>
 <p>Our first form will be a very basic short term insurance quote request form. It allows you to request a quote for homeowners insurance.</p>
-<p>The fields that should appear on the form are:
-* Customer Name
-* Customer Surname
-* Customer Id, Passport or Social Security number
-* Physical address line 1
-* Physical address line 2
-* City
-* State or Province
-* Country
-* Postal code
-* Property value amount (in USD)</p>
+<p>The fields that should appear on the form are:</p>
+<ul class="simple">
+<li>Customer Name</li>
+<li>Customer Surname</li>
+<li>Customer Id, Passport or Social Security number</li>
+<li>Physical address line 1</li>
+<li>Physical address line 2</li>
+<li>City</li>
+<li>State or Province</li>
+<li>Country</li>
+<li>Postal code</li>
+<li>Property value amount (in USD)</li>
+</ul>
 <p>TODO - Details to follow</p>
-<p>Goals for stage 2:
-* In the repo, create a folder called src/web
-* Create a new file for our form called “basic-claim.html”
-* Create an HTML form, with a single submit button on the html page
-* Commit and push your changes to git
-* Send a Pull Request</p>
+<p>Goals for stage 2:</p>
+<ul class="simple">
+<li>In the repo, create a folder called src/web</li>
+<li>Create a new file for our form called “basic-claim.html”</li>
+<li>Create an HTML form, with a single submit button on the html page</li>
+<li>Commit and push your changes to git</li>
+<li>Send a Pull Request</li>
+</ul>
 <p>If you get stuck, feel free to look at the reference implementation here: TODO</p>
 </div>
 <div class="section" id="stage-3-springboot-service-method-post">
 <h2>Stage 3: SpringBoot Service method (POST)<a class="headerlink" href="#stage-3-springboot-service-method-post" title="Permalink to this headline">¶</a></h2>
 <p>The next step is to build a SpringBoot POST method to which the form data will be submitted. For now we will
 NOT be saving the data to a DB, we will only log it to the system log.</p>
-<p>Notes:
-* Still just submit dummy data into the payload field
-* Use Postman to test first</p>
+<p>Notes:</p>
+<ul class="simple">
+<li>Still just submit dummy data into the payload field</li>
+<li>Use Postman to test first</li>
+</ul>
 <p>TODO - Details to follow</p>
-<p>Goals for stage 3:
-* TODO</p>
+<p>Goals for stage 3:</p>
+<ul class="simple">
+<li>TODO</li>
+</ul>
 <p>If you get stuck, feel free to look at the reference implementation here: TODO</p>
 </div>
 <div class="section" id="stage-4-link-the-html-front-end-button-with-post-service">
@@ -387,36 +402,46 @@ submitted return. Note: We will be calling each submitted survey a RETURN, so th
 </table>
 <p>Instead of building this table using a GUI of some sort, we will create SQL DDL script which describes the DB table.
 This script can then easily be executed against a database to produce the database according to our needs.</p>
-<p>Goals for stage 5:
-* In the repo, create a folder called “database”
-* In this folder, create a SQL DDL script called “create_db.sql”
-* Create a SQL statement that will create the table as described above</p>
+<p>Goals for stage 5:</p>
+<ul class="simple">
+<li>In the repo, create a folder called “database”</li>
+<li>In this folder, create a SQL DDL script called “create_db.sql”</li>
+<li>Create a SQL statement that will create the table as described above</li>
+</ul>
 <p>If you get stuck, feel free to look at the reference implementation here: TODO</p>
 </div>
 <div class="section" id="stage-6-link-springboot-service-to-db">
 <h2>Stage 6: Link SpringBoot service to DB<a class="headerlink" href="#stage-6-link-springboot-service-to-db" title="Permalink to this headline">¶</a></h2>
 <p>TODO - Details to follow</p>
-<p>Notes:
-* Base64 encoding of the form payload</p>
+<p>Notes:</p>
+<ul class="simple">
+<li>Base64 encoding of the form payload</li>
+</ul>
 </div>
 <div class="section" id="stage-7-add-a-springboot-service-for-getting-all-returns">
 <h2>Stage 7: Add a SpringBoot service for getting all returns<a class="headerlink" href="#stage-7-add-a-springboot-service-for-getting-all-returns" title="Permalink to this headline">¶</a></h2>
 <p>TODO - Details to follow</p>
-<p>Notes:
-* Test with Postman</p>
+<p>Notes:</p>
+<ul class="simple">
+<li>Test with Postman</li>
+</ul>
 </div>
 <div class="section" id="stage-8-add-screen-for-showing-all-returns">
 <h2>Stage 8: Add screen for showing all returns<a class="headerlink" href="#stage-8-add-screen-for-showing-all-returns" title="Permalink to this headline">¶</a></h2>
 <p>TODO - Details to follow</p>
-<p>Notes:
-* JQuery to build page at runtime</p>
+<p>Notes:</p>
+<ul class="simple">
+<li>JQuery to build page at runtime</li>
+</ul>
 </div>
 <div class="section" id="stage-9-add-springboot-method-for-getting-details-of-one-return">
 <h2>Stage 9: Add SpringBoot method for getting details of one return<a class="headerlink" href="#stage-9-add-springboot-method-for-getting-details-of-one-return" title="Permalink to this headline">¶</a></h2>
 <p>TODO - Details to follow</p>
-<p>Notes:
-* Base64 decoding of the form payload
-* Test with Postman</p>
+<p>Notes:</p>
+<ul class="simple">
+<li>Base64 decoding of the form payload</li>
+<li>Test with Postman</li>
+</ul>
 </div>
 <div class="section" id="stage-10-add-screen-for-displaying-a-return-as-read-only">
 <h2>Stage 10: Add screen for displaying a return as read-only<a class="headerlink" href="#stage-10-add-screen-for-displaying-a-return-as-read-only" title="Permalink to this headline">¶</a></h2>

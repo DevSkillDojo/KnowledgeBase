@@ -3,7 +3,11 @@
 Podcasts
 ========
 
-**Codepen Radio (https://blog.codepen.io/radio/)
+**CS50 Podcast (https://player.fm/series/cs50-podcast)**
+
+* The CS50 Podcast is hosted by CS50's own David J. Malan and Brian Yu at Harvard University. Each episode focuses on (and explains!) current events and news in tech and computer science more generally. This is the CS50 Podcast.
+
+**Codepen Radio (https://blog.codepen.io/radio/)**
 
 * A podcast all about what it's like running a small web software business. The good, the bad, and the ugly. 
 

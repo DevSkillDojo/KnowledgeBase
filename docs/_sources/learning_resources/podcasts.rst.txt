@@ -3,6 +3,14 @@
 Podcasts
 ========
 
+**Codepen Radio (https://blog.codepen.io/radio/)
+
+* A podcast all about what it's like running a small web software business. The good, the bad, and the ugly. 
+
+**TechJR (https://techjr.dev/)**
+
+* Thinking of pursuing a career as a programmer? Lee Warrick and Edwin Otero explore what it's like to break into the Tech field as junior developers as well as how to stay up-to-date on new technology.
+
 **This week in startups (https://thisweekinstartups.com/)**
 
 * Supporting entrepreneurs & inspiring innovation.

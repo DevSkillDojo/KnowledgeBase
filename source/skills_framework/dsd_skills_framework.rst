@@ -4,7 +4,7 @@ DSD Skills Framework
 ====================
 
 Date Release: 2020-03-07
-Version: 0.0.2
+Version: 0.0.3
 
 The diagram below provides a high level depiction of the DevSkillDojo Skills Framework. The intention of this framework is to provide
 a considered method for structuring skills. Additionally, the framework serves as a guideline to prevent one-dimensional thinking
@@ -22,6 +22,10 @@ A CAPABILITY is generally:
  * By a person with a set of SOFT SKILLS
 
 .. image:: ../assets/DevSkillDojo_Skills_Framework.png
+
+Diagram Notes:
+
+* Domains are derived from the North American Industry Classification System (NAICS), but with specific adjustments to align with the goals of this framework
 
 Further detail of the framework is provided in the domain model and skills ontology (documented separately)
 

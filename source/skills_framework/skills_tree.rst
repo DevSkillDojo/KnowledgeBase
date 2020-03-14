@@ -136,8 +136,8 @@ Development
    * CSS
        * CSS Fundamentals
        * Grid and Flexbox
-       * Media queries
-       * CSS Animation
+       * CSS Media queries
+       * CSS Transformation and Animation
        * CSS Processors
            * Sass
            * Less

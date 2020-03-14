@@ -3,6 +3,10 @@
 Podcasts
 ========
 
+**Software Engineering Unlocked (https://www.software-engineering-unlocked.com/)**
+
+* In this show, I open you the doors to companies and thought leaders around the world. With my guests, I discuss software engineering best practices and pitfalls, and how they strive to build software people love.
+
 **CS50 Podcast (https://player.fm/series/cs50-podcast)**
 
 * The CS50 Podcast is hosted by CS50's own David J. Malan and Brian Yu at Harvard University. Each episode focuses on (and explains!) current events and news in tech and computer science more generally. This is the CS50 Podcast.

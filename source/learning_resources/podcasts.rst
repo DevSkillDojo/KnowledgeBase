@@ -118,4 +118,10 @@ IndieHackers Podcast (https://www.indiehackers.com/podcast)
 Recode Decode (https://www.vox.com/recode-podcasts)
  * Kara Swisher, Silicon Valley’s most revered journalist, hosts candid interviews with tech execs, politicians, celebrities and more about their big ideas and how they’re changing our world. Produced by Recode and the Vox Media Podcast Network.
 
+TODO: Add table containing the following, for objective rating system:
+ * Number of subcribers
+ * Number of reviews
+ * Rating on large platforms (Apple, Stitcher, Spotify, Chartable)
+ * DSD Subjective rating based on value to solution development
+
     

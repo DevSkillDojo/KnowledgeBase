@@ -79,7 +79,11 @@ References:
    * TODO
 
 * Requirements Management
-   * TODO
+   * FURPS+
+   * Serenity BDD
+   * Spock Framework
+   * Fitnesse
+   * Cucumber
 
 * Analysis (DRAFT)
    * Brainstorming 

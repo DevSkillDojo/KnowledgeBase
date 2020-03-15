@@ -11,12 +11,13 @@ Learning Resources
    books
    online_courses
    tutorials_and_code_examples
-   exam_and_interview_prep
    skills_assessment
    webinars_and_conferences
    bootcamps
    podcasts
+   coding_challenge
    unclassified
+
    
    
    

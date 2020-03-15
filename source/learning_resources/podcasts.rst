@@ -123,5 +123,8 @@ TODO: Add table containing the following, for objective rating system:
  * Number of reviews
  * Rating on large platforms (Apple, Stitcher, Spotify, Chartable)
  * DSD Subjective rating based on value to solution development
+ 
+TODO: Sources to mine:
+ * Dev.to
 
     

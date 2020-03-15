@@ -46,7 +46,7 @@ Providers
 
 * 
 * 
-* 
+* https://javabrains.io/
 * https://testautomationu.applitools.com/
 * https://egghead.io/
 * https://scrimba.com/

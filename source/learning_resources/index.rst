@@ -16,6 +16,9 @@ Learning Resources
    bootcamps
    podcasts
    coding_challenge
+   communities
+   youtube_channels
+   blogs
    unclassified
 
    

@@ -3,12 +3,19 @@
 Bootcamps
 =========
 
+For Profit
+----------
 * https://codeworks.me/
 * https://www.appacademy.io/
 * https://www.hackreactor.com/
 * https://www.coderhouse.com/
 * https://byteacademy.co/
 
+
+Non-Profits
+-----------
+* https://codebar.io/
+* https://www.opentechschool.org/
 
 Online Bootcamps
 ----------------

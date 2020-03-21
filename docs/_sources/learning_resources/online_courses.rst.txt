@@ -27,7 +27,7 @@ Providers
 +-------------------+--------------------------------+------------------------------------------+
 |                   | https://embermap.com/          | Tutorials and courses focussing on Ember |
 +-------------------+--------------------------------+------------------------------------------+
-|                   |                                |                                          |
+| Wes Bos Courses   | https://wesbos.com/courses/    |                                          |
 +-------------------+--------------------------------+------------------------------------------+
 |                   |                                |                                          |
 +-------------------+--------------------------------+------------------------------------------+
@@ -42,11 +42,9 @@ Providers
 |                   |                                |                                          |
 +-------------------+--------------------------------+------------------------------------------+
 
-* 
 
-* 
-* 
-* 
+* https://www.tutorialrepublic.com/
+* https://javabrains.io/
 * https://testautomationu.applitools.com/
 * https://egghead.io/
 * https://scrimba.com/
@@ -54,4 +52,12 @@ Providers
 * https://www.codecademy.com/
 * https://www.bitdegree.org
 * https://scotch.io/courses
+* https://academy.zenva.com/
+* https://www.reforge.com/ (Advanced Training)
+* https://css-tricks.com/
+* https://javascript30.com/
+* https://flaviocopes.com/
 
+
+Reference:
+* https://youtu.be/0WUFqzzHUvQ

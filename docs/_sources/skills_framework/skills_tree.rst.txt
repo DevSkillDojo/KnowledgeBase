@@ -79,7 +79,11 @@ References:
    * TODO
 
 * Requirements Management
-   * TODO
+   * FURPS+
+   * Serenity BDD
+   * Spock Framework
+   * Fitnesse
+   * Cucumber
 
 * Analysis (DRAFT)
    * Brainstorming 
@@ -136,8 +140,8 @@ Development
    * CSS
        * CSS Fundamentals
        * Grid and Flexbox
-       * Media queries
-       * CSS Animation
+       * CSS Media queries
+       * CSS Transformation and Animation
        * CSS Processors
            * Sass
            * Less

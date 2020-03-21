@@ -3,6 +3,12 @@
 Podcasts
 ========
 
+**Devchat.tv ()**
+
+**Software Engineering Unlocked (https://www.software-engineering-unlocked.com/)**
+
+* In this show, I open you the doors to companies and thought leaders around the world. With my guests, I discuss software engineering best practices and pitfalls, and how they strive to build software people love.
+
 **CS50 Podcast (https://player.fm/series/cs50-podcast)**
 
 * The CS50 Podcast is hosted by CS50's own David J. Malan and Brian Yu at Harvard University. Each episode focuses on (and explains!) current events and news in tech and computer science more generally. This is the CS50 Podcast.
@@ -113,5 +119,96 @@ IndieHackers Podcast (https://www.indiehackers.com/podcast)
 
 Recode Decode (https://www.vox.com/recode-podcasts)
  * Kara Swisher, Silicon Valley’s most revered journalist, hosts candid interviews with tech execs, politicians, celebrities and more about their big ideas and how they’re changing our world. Produced by Recode and the Vox Media Podcast Network.
+
+JavaScript Jabber (https://devchat.tv/js-jabber)
+ * Weekly podcast discussion about Javascript on the front and back ends. Also discuss programming practices, coding environments, and the communities related to the technology.
+ 
+Ruby Rogues (https://devchat.tv/ruby-rogues)
+ * A weekly discussion by Ruby developers about programming, life, and careers.
+ 
+Adventures in Angular (https://devchat.tv/adv-in-angular)
+ * Adventures in Angular is a weekly podcast about developments in the Angular community, tools, techniques, and ecosystem.
+
+Dev Ed Podcast (https://devchat.tv/dev-ed)
+ * A weekly podcast about the world of programming and all things related to developer education within the various communities of web development. All levels from beginner to advanced welcome.
+
+My JavaScript Story (https://devchat.tv/my-javascript-story)
+ * A weekly exploration into the people who make JavaScript what it is.
+
+My Ruby Story (https://devchat.tv/my-ruby-story)
+ * A weekly exploration into the people who make Ruby what it is.
+ 
+My Angular Story (https://devchat.tv/my-angular-story)
+ * A weekly exploration into the people who make Angular what it is.
+ 
+React Native Radio (https://devchat.tv/react-native-radio)
+ * React Native Radio Podcast
+ 
+React Round Up (https://devchat.tv/react-round-up)
+ * A weekly discussion among React developers
+ 
+Views on Vue (https://devchat.tv/views-on-vue)
+ * A weekly discussion with Vue developers
+ 
+The Freelancers' Show (https://devchat.tv/freelancers)
+ * Weekly discussion by freelancers and professionals about running a business, finding clients, marketing, and lifestyle related to being a freelancer.
+ 
+iPhreaks (https://devchat.tv/iphreaks)
+ * The iOS Development Podcast
+ 
+Elixir Mix (https://devchat.tv/elixir-mix)
+ * Elixir Mix is a weekly show focused on the Elixir programming community. Our panel discusses topics around functional programming, the Elixir ecosystem, and building real world apps with Elixir based tools and frameworks.
+ 
+Adventures in .NET (https://devchat.tv/adventures-in-dotnet)
+ * Every week a panel of experts in .NET and related technologies sit down with developers from the community to talk about all things .NET related.
+ 
+Adventures in DevOps (https://devchat.tv/adventures-in-devops)
+ * Adventures in DevOps is a weekly podcast about everything DevOps
+ 
+Clean Coders Podcast (https://devchat.tv/clean-coders)
+ * Weekly podcast with the authors on CleanCoders.com
+ 
+Ladybug Podcast (https://ladybug.dev/)
+ * We're Emma Bostian, Kelly Vaughn, and Ali Spittel - three seasoned software developers working in different sectors. 
+ * Since there's a major lack of technical podcasts out there, we've decided to start one. 
+ * Just kidding -- there's already a ton! But, we wanted to add our voices to the space and share our experiences and advice. 
+ * We'll have great discussions around how to start coding, the hot technologies right now, how to get your first developer job, and more!
+
+Shoptalk Show (https://shoptalkshow.com/)
+ * A live podcast about front end web design and UX
+
+Real Talk JavaScript (https://realtalkjavascript.simplecast.com/)
+ * Dive into JavaScript and Web development stories with hosts John Papa, Ward Bell, and Dan Wahlin. 
+ * A weekly podcast where we tackle the challenges facing Web developers today and invite expert guests on the show to share their experience solving concrete problems while building real Web applications.
+ *  Listen for practical insights and honest talk about the topics you are facing today, with Real Talk JavaScript.
+
+React Podcast (https://reactpodcast.simplecast.fm/)
+ * Conversations about React with your favorite developers.
+
+TestTalks (https://testguild.com/podcasts/)
+ * TestTalks is a weekly podcast hosted by Joe Colantonio, which geeks out on all things software test automation. 
+ * TestTalks covers news found in the testing space, reviews books about automation and speaks with some of the thought leaders in the test automation field. 
+ * We’ll aim to interview some of today’s most successful and inspiring software engineers.
+
+6 Figure Developer Podcast (https://6figuredev.com/)
+ * Helping others reach their potential
+
+TODO: Add table containing the following, for objective rating system:
+ * Number of subcribers
+ * Number of reviews
+ * Rating on large platforms (Apple, Stitcher, Spotify, Chartable)
+ * Total number of episodes
+ * Total running time (in months)
+ * Date of latest episode
+ * Dead flag
+ * Stability rating (Do they stick to a regular publishing schedule)
+ * DSD Subjective rating based on value to solution development
+ 
+TODO: Sources to mine:
+ * Dev.to
+ * https://reactjs.org/community/podcasts.html
+ * https://devchat.tv
+ * https://testingpodcast.com/
+ * https://testguild.com/podcasts/
 
     

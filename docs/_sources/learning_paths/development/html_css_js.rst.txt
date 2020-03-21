@@ -31,6 +31,8 @@ TODO
 
 Practical projects
 ------------------
+- Follow the flow of the first website by LevelUpTuts
+
 * Basic screen skeleton 1: Header with menu items
     * Header with menu items
     * Related to: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/adjust-the-tone-of-a-color
@@ -44,6 +46,8 @@ Practical projects
 * CSS Shapes
     * Crescent moon
     * Heart: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html
+* CSS Animation
+    * 10 pin bowling animation viewed from the top
 * Responsive Cards
     * Ruond corners
     * Shadows

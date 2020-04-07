@@ -24,52 +24,85 @@ Note: This learning path is still under development. If you would like to add an
    * TODO
     
 * Prerequisite Background Knowledge (Architect)
+   * :ref:`Git <skills_detail_git>` (4 - Advanced) 
+   * :ref:`HTML5 <skills_detail_html5>` (3 - Intermediate)
+   * :ref:`JavaScript <skills_detail_javascript>` (3 - Intermediate)
+   * :ref:`CSS3 <skills_detail_css3>` (3 - Intermediate)
+   * :ref:`JQuery <skills_detail_jquery>` (3 - Intermediate)
+   * :ref:`Java <skills_detail_java>` (4 - Advanced)
+   * :ref:`Maven <skills_detail_maven>` (4 - Advanced)
+   * :ref:`Apache httpd <skills_detail_apache_httpd>` (3 - Intermediate)
    * TODO
 
 * Prerequisite Background Knowledge (Business Practitioner)
+   * :ref:`Git <skills_detail_git>` (2 - Novice)
    * TODO
 
 * Prerequisite Background Knowledge (Author)
    * TODO
     
 * Prerequisite Background Knowledge (Tester)
+   * :ref:`Git <skills_detail_git>` (3 - Intermediate)
    * TODO    
 
 * Prerequisite Background Knowledge (Front-End Developer)
-   * Git
-   * Html5
-   * Javascript
-   * Css
-   * Jquery
-   * Bootstrap
-   * Java
-   * Maven
-   * Java logging   
-   * Apache httpd 
-   * Ssl
-   * Docker (For local environment prep)
-   * Docker compose (For local environment prep)  
-   * JSON  
+   * :ref:`Git <skills_detail_git>` (3 - Intermediate)
+   * :ref:`HTML5 <skills_detail_html5>` (3 - Intermediate)
+   * :ref:`JavaScript <skills_detail_javascript>` (3 - Intermediate)
+   * :ref:`CSS3 <skills_detail_css3>` (3 - Intermediate)
+   * :ref:`JQuery <skills_detail_jquery>` (2 - Novice)
+   * :ref:`Java <skills_detail_java>` (2 - Novice)
+      * Java logging (1 - Fundamental Awareness)
+      * TODO
+   * :ref:`Maven <skills_detail_maven>` (2 - Novice)
+   * :ref:`Apache httpd <skills_detail_apache_httpd>` (2 - Novice)
+   * :ref:`TLS/SSL <skills_detail_tls_ssl>` (1 - Fundamental Awareness)
+   * :ref:`Docker <skills_detail_docker>` (2 - Novice) (For local environment prep)
+   * :ref:`Docker Compose <skills_detail_docker_compose>` (2 - Novice) (For local environment prep)  
+   * :ref:`JSON <skills_detail_json>` (2 - Novice)
+   * :ref:`Bootstrap <skills_detail_bootstrap>`  (3 - Intermediate) (Not sure if this is really true)
+   * IDE
+   * Eclipse
     
 * Prerequisite Background Knowledge (Back-End Developer) 
-   * Git   
-   * Java
-   * Maven
-   * Java logging   
-   * Apache httpd 
-   * Docker (For local environment prep)
-   * Docker compose (For local environment prep)    
-   * Java Servlets
-   * Java Dependency Injection
-   * JMX
-   * Jaas
-   * James mail (For local email dev)
-   * Ldap
-   * Spring rest services (Because you are almost 100% certain to have to build some service that AEM can consume)
-   * OSGi
-   * Testing HTTP endpoints with Postman
-   * JSON
-   * SQL
+   * :ref:`Git <skills_detail_git>` (3 - Intermediate)  
+   * :ref:`HTML5 <skills_detail_html5>` (2 - Novice)
+   * :ref:`JavaScript <skills_detail_javascript>` (2 - Novice)
+   * :ref:`CSS3 <skills_detail_css3>` (2 - Novice)
+   * :ref:`JQuery <skills_detail_jquery>` (2 - Novice)
+   * :ref:`Java <skills_detail_java>` (3 - Intermediate)
+      * Java logging (3 - Intermediate)
+      * Java Servlets (3 - Intermediate)
+      * Java Dependency Injection (3 - Intermediate)
+      * JMX (3 - Intermediate)
+      * JAAS (3 - Intermediate)  
+      * Spring rest services (3 - Intermediate) (Because you are almost 100% certain to have to build some service that AEM can consume)
+      * OSGi (3 - Intermediate)
+      * TODO
+   * :ref:`Maven <skills_detail_maven>` (3 - Intermediate)
+   * :ref:`Apache httpd <skills_detail_apache_httpd>` (2 - Novice)
+   * :ref:`Docker <skills_detail_docker>` (2 - Novice) (For local environment prep)
+   * :ref:`Docker Compose <skills_detail_docker_compose>` (2 - Novice) (For local environment prep)    
+   * James mail (2 - Novice) (For local email dev)
+   * Ldap (2 - Novice)
+
+   * Testing HTTP endpoints with Postman (3 - Intermediate)
+   * JSON (3 - Intermediate)
+   * SQL (3 - Intermediate)
+   * IDE
+   * Eclipse
+ 
+* Prerequisite Background Knowledge (Integration Developer) 
+   * :ref:`Git <skills_detail_git>` (3 - Intermediate) 
+   * IDE
+   * Eclipse
+   * TODO
+   
+* Prerequisite Background Knowledge (Systems Engineer)
+   * :ref:`Git <skills_detail_git>` (3 - Intermediate)
+   * IDE
+   * Eclipse
+   * TODO    
     
 * Beginner topics
    * Setting up the core prerequisites (JDK, Maven)
@@ -78,8 +111,6 @@ Note: This learning path is still under development. If you would like to add an
    * Exploring the Felix console
    * Exploring CRX DE
     
-* Beginner - WKND tutorial (Not sure where this should fit in)
-
 * Beginner Project 1 - Your first AEM project
    * Goal: Understanding Sling routing
    * Create Git repo
@@ -189,6 +220,7 @@ The steps described below would be very useful if combined in a GitHub-driven vi
 
 
 
+* Beginner - WKND tutorial (Not sure where this should fit in)
 
 
 

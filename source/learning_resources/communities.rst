@@ -38,6 +38,7 @@ Infrastructure & DevOps
 Designers
 
 * https://dribbble.com/
+* https://designshack.net/
 * https://designerhangout.co/
 * https://www.interaction-design.org/community
 * https://www.mockplus.com/

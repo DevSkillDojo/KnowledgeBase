@@ -57,6 +57,7 @@ Providers
 * https://css-tricks.com/
 * https://javascript30.com/
 * https://flaviocopes.com/
+* https://tutsplus.com/ (Design)
 
 
 Reference:

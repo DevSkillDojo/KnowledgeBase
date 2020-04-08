@@ -7,6 +7,7 @@ Skill Details
    :maxdepth: 1
    :caption: Contents:
    
+   template
    business_skills/index
    domains/index
    soft_skills/index

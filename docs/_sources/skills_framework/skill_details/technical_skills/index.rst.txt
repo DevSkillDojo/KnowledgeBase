@@ -15,8 +15,11 @@ Technical Skills
    java
    docker
    docker_compose
-   apache_httpd
    maven
    json
    jquery
    tls_ssl
+   ldap
+   sql
+   imap
+   smtp

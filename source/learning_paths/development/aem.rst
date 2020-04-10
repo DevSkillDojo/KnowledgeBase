@@ -36,15 +36,29 @@ Prerequisite Knowledge
    * :ref:`CSS3 <skills_detail_css3>` (3 - Intermediate)
    * :ref:`JQuery <skills_detail_jquery>` (3 - Intermediate)
    * :ref:`Java <skills_detail_java>` (4 - Advanced)
+      * JUnit (3 - Intermediate)
    * :ref:`Maven <skills_detail_maven>` (4 - Advanced)
    * :ref:`Apache httpd <skills_detail_apache_httpd>` (3 - Intermediate)
+   * :ref:`SMTP <skills_detail_smtp>` (3 - Intermediate)
+   * :ref:`IMAP <skills_detail_imap>` (3 - Intermediate)
+   * :ref:`LDAP <skills_detail_ldap>` (3 - Intermediate)
    * TODO
 
 * Prerequisite Background Knowledge (Business Practitioner)
    * :ref:`Git <skills_detail_git>` (2 - Novice)
+   * :ref:`HTML5 <skills_detail_html5>` (2 - Novice)
+   * :ref:`JavaScript <skills_detail_javascript>` (2 - Novice)
+   * :ref:`CSS3 <skills_detail_css3>` (2 - Novice)
+   * :ref:`Maven <skills_detail_maven>` (2 - Novice)
+   * :ref:`Apache httpd <skills_detail_apache_httpd>` (2 - Novice)
+   * :ref:`Docker <skills_detail_docker>` (2 - Novice) (For local environment prep)
+   * :ref:`Docker Compose <skills_detail_docker_compose>` (2 - Novice) (For local environment prep)     
    * TODO
 
 * Prerequisite Background Knowledge (Author)
+   * :ref:`HTML5 <skills_detail_html5>` (2 - Novice)
+   * :ref:`JavaScript <skills_detail_javascript>` (2 - Novice)
+   * :ref:`CSS3 <skills_detail_css3>` (2 - Novice)
    * TODO
     
 * Prerequisite Background Knowledge (Tester)
@@ -59,6 +73,7 @@ Prerequisite Knowledge
    * :ref:`JQuery <skills_detail_jquery>` (2 - Novice)
    * :ref:`Java <skills_detail_java>` (2 - Novice)
       * Java logging (1 - Fundamental Awareness)
+      * JSP (2 - Novice)
       * TODO
    * :ref:`Maven <skills_detail_maven>` (2 - Novice)
    * :ref:`Apache httpd <skills_detail_apache_httpd>` (2 - Novice)
@@ -68,7 +83,7 @@ Prerequisite Knowledge
    * :ref:`JSON <skills_detail_json>` (2 - Novice)
    * :ref:`Bootstrap <skills_detail_bootstrap>`  (3 - Intermediate) (Not sure if this is really true)
    * IDE
-   * Eclipse
+   * :ref:`Eclipse <skills_detail_eclipse>` (2 - Novice)
     
 * Prerequisite Background Knowledge (Back-End Developer) 
    * :ref:`Git <skills_detail_git>` (3 - Intermediate)  
@@ -79,35 +94,38 @@ Prerequisite Knowledge
    * :ref:`Java <skills_detail_java>` (3 - Intermediate)
       * Java logging (3 - Intermediate)
       * Java Servlets (3 - Intermediate)
+      * JSP (3 - Intermediate)
       * Java Dependency Injection (3 - Intermediate)
       * JMX (3 - Intermediate)
       * JAAS (3 - Intermediate)  
       * Spring rest services (3 - Intermediate) (Because you are almost 100% certain to have to build some service that AEM can consume)
       * OSGi (3 - Intermediate)
+      * JUnit (3 - Intermediate)
       * TODO
    * :ref:`Maven <skills_detail_maven>` (3 - Intermediate)
    * :ref:`Apache httpd <skills_detail_apache_httpd>` (2 - Novice)
+   * :ref:`SMTP <skills_detail_smtp>` (2 - Novice)
+   * :ref:`IMAP <skills_detail_imap>` (2 - Novice)
    * :ref:`Docker <skills_detail_docker>` (2 - Novice) (For local environment prep)
    * :ref:`Docker Compose <skills_detail_docker_compose>` (2 - Novice) (For local environment prep)    
-   * James mail (2 - Novice) (For local email dev)
-   * Ldap (2 - Novice)
-
+   * :ref:`James Mail <skills_detail_james_mail>` (2 - Novice) (For local email dev)
+   * :ref:`LDAP <skills_detail_ldap>` (2 - Novice)
    * Testing HTTP endpoints with Postman (3 - Intermediate)
-   * JSON (3 - Intermediate)
-   * SQL (3 - Intermediate)
+   * :ref:`JSON <skills_detail_json>` (3 - Intermediate)
+   * :ref:`SQL <skills_detail_sql>` (3 - Intermediate)
    * IDE
-   * Eclipse
+   * :ref:`Eclipse <skills_detail_eclipse>` (2 - Novice)
  
 * Prerequisite Background Knowledge (Integration Developer) 
    * :ref:`Git <skills_detail_git>` (3 - Intermediate) 
    * IDE
-   * Eclipse
+   * :ref:`Eclipse <skills_detail_eclipse>` (2 - Novice)
    * TODO
    
 * Prerequisite Background Knowledge (Systems Engineer)
    * :ref:`Git <skills_detail_git>` (3 - Intermediate)
    * IDE
-   * Eclipse
+   * :ref:`Eclipse <skills_detail_eclipse>` (2 - Novice)
    * TODO    
     
 Learning Paths
@@ -162,11 +180,13 @@ Microlearning Nuggets
        
 Beginner topics
 ~~~~~~~~~~~~~~~
-
+* Nugget: What is AEM
+   * https://aem.redquark.org/2018/10/day-01-introduction-to-aem.html
+* Nugget: AEM vs
 * Nugget: Installing JDK (Windows, Linux, Mac)
 * Nugget: Checking Java Version
 * Nugget: Installing Maven (Windows, Linux, Mac)
-* Nugget: Starting up AEM for the first time
+* Nugget: Starting up AEM for the first time" value="Type Here"
 * Nugget: Stopping and Starting AEM
 * Nugget: Overview of AEM interfaces
 * Nugget: Overview of the Felix console
@@ -212,12 +232,12 @@ General Developer Topics
 * Nugget: Deploying the new project to a local AEM instance
 * Nugget: Adding content to the JCR using a content.xml file in your source code
 * Nugget: Overview of clientlibs
-
+* Nugget: Using log levels effectively
 
 
 OSGi Topics
 ~~~~~~~~~~~
-
+* Look at AEM Developer Series (https://aem.redquark.org/2018/10/day-00-aem-developer-series.html)
 * TODO
 
     
@@ -235,19 +255,16 @@ AEM Forms Authoring Topics
    * https://helpx.adobe.com/experience-manager/6-3/forms/using/introduction-forms-authoring.html
 * Nugget: Introduction to Managing Forms using the AEM User Interface
    * https://helpx.adobe.com/experience-manager/6-3/forms/using/introduction-managing-forms.html
-* Nugget: Creating your first AEM Adaptive form
-   * https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-form-data-model.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/apply-rules-to-adaptive-form-fields.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/style-your-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/testing-your-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/publish-your-adaptive-form.html
-* Nugget: Creating a new adaptive form without a data model
-* Nugget: Designing an XSD for an adaptive form
-* Nugget: Creating an adaptive form using an XSD
-* TODO - Other basics
+* Nugget: Getting Started With Forms In AEM Forms 6.4
+   * Programmer vs World video (https://www.youtube.com/watch?v=ywSc1NKHgn0)
+* Nugget: AEM Forms - Using The Editor
+   * Programmer vs World video (https://www.youtube.com/watch?v=e8QzdDim6FM)
+* Nugget: AEM Forms - Form Fragments And Rules
+   * Programmer vs World video (https://www.youtube.com/watch?v=VY70RfaS0nM)  
+* Nugget: AEM Forms - Calculate And Initialize Events
+   * Programmer vs World video (https://www.youtube.com/watch?v=x-5oRpWC474)
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guidebutton
+
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guideCaptcha
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guidechart
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guidecheckbox
@@ -273,10 +290,25 @@ AEM Forms Authoring Topics
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/panel
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/progressiveDataCapture
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/table
+* Composite Nugget: Creating your first AEM Adaptive form
+   * https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-form-data-model.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/apply-rules-to-adaptive-form-fields.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/style-your-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/testing-your-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/publish-your-adaptive-form.html
+* Nugget: Creating a new adaptive form without a data model
+* Nugget: Designing an XSD for an adaptive form
+* Nugget: Creating an adaptive form using an XSD
+* TODO - Other basics
+
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
+* Nugget: AEM Forms Reference Fragments
+    * https://helpx.adobe.com/experience-manager/6-3/forms/using/reference-adaptive-form-fragments.html
 * Nugget: Creating and Using Themes
     * https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html
     
@@ -305,6 +337,8 @@ AEM Sites Front-End Development Topics
 
 AEM Forms Front-End Development Topics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 * Nugget: Creating a custom adaptive form template
    * https://helpx.adobe.com/aem-forms/6/custom-adaptive-forms-templates.html
 * Nugget: Creating a custom form component

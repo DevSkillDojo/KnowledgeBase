@@ -3,6 +3,8 @@
 Learning Path :: Development : AEM
 ==================================
 
+NB! Learning paths should be dynamically assembled using the granular paths for each of the comprising technologies
+
 Note: This learning path is still under development. If you would like to add any details, references or ideas, please submit a pull request
 
 Introduction
@@ -183,6 +185,7 @@ Beginner topics
 * Nugget: What is AEM
    * https://aem.redquark.org/2018/10/day-01-introduction-to-aem.html
 * Nugget: AEM vs
+
 * Nugget: Installing JDK (Windows, Linux, Mac)
 * Nugget: Checking Java Version
 * Nugget: Installing Maven (Windows, Linux, Mac)
@@ -232,8 +235,8 @@ General Developer Topics
 * Nugget: Deploying the new project to a local AEM instance
 * Nugget: Adding content to the JCR using a content.xml file in your source code
 * Nugget: Overview of clientlibs
+    * https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html
 * Nugget: Using log levels effectively
-
 
 OSGi Topics
 ~~~~~~~~~~~
@@ -263,8 +266,19 @@ AEM Forms Authoring Topics
    * Programmer vs World video (https://www.youtube.com/watch?v=VY70RfaS0nM)  
 * Nugget: AEM Forms - Calculate And Initialize Events
    * Programmer vs World video (https://www.youtube.com/watch?v=x-5oRpWC474)
+* Composite Nugget: Creating your first AEM Adaptive form
+   * https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-form-data-model.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/apply-rules-to-adaptive-form-fields.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/style-your-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/testing-your-adaptive-form.html
+   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/publish-your-adaptive-form.html
+* Nugget: Creating a new adaptive form without a data model
+* Nugget: Designing an XSD for an adaptive form
+* Nugget: Creating an adaptive form using an XSD
+* TODO - Other basics
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guidebutton
-
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guideCaptcha
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guidechart
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/guidecheckbox
@@ -290,19 +304,6 @@ AEM Forms Authoring Topics
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/panel
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/progressiveDataCapture
 * Nugget: Exploring OOTB AEM Adaptive Form Components - /libs/fd/af/components/table
-* Composite Nugget: Creating your first AEM Adaptive form
-   * https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/create-form-data-model.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/apply-rules-to-adaptive-form-fields.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/style-your-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/testing-your-adaptive-form.html
-   * Tutorial: https://helpx.adobe.com/experience-manager/6-3/forms/using/publish-your-adaptive-form.html
-* Nugget: Creating a new adaptive form without a data model
-* Nugget: Designing an XSD for an adaptive form
-* Nugget: Creating an adaptive form using an XSD
-* TODO - Other basics
-
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
 * Nugget: Exploring OOTB AEM Adaptive Form Components - TODO
@@ -311,10 +312,15 @@ AEM Forms Authoring Topics
     * https://helpx.adobe.com/experience-manager/6-3/forms/using/reference-adaptive-form-fragments.html
 * Nugget: Creating and Using Themes
     * https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html
-    
+* Nugget: Reference Themes
+    * https://helpx.adobe.com/experience-manager/6-3/forms/using/reference-themes.html
+* Nugget: Adaptive Form Templates
+    * https://helpx.adobe.com/experience-manager/6-3/forms/using/template-editor.html
     
 AEM Sites Front-End Development Topics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 * Nugget: Exploring OOTB AEM Adaptive Form Components: /libs/fd/af/components/aemform
 * Nugget: Exploring OOTB AEM Adaptive Form Components: /libs/fd/af/components/afFormTitle
@@ -349,6 +355,20 @@ AEM Forms Front-End Development Topics
 Microlearning Practical Projects
 --------------------------------
     
+* Beginner Project 1 - Maven Quickstart project (This should actually exist under the Maven skill)
+   * Fork the following project from GitHub (TODO-Add Repo)
+   * Once it is forked, clone it to your local machine
+   * Create a new subfolder under [REPO_ROOT]/mvn/project1. Use your name as the folder name, for example [REPO_ROOT]/mvn/project1/greg
+   * In the new folder create a Maven Quickstart project with the following coordinates:
+       * Group: tech.lunchtimelearning.mvn
+       * Artefact: mvn-project1-[yourname]
+       * Version: 0.0.1-SNAPSHOT
+   * Ensure the project uses Java 11
+   * Build the project using the Command Line
+   * Run the project
+   * Once you're able to successfully run the project, commit your solution and submit a PR (Pull Request)
+
+
     
 * Beginner Project 1 - Your first AEM project
    * Goal: Understanding Sling routing

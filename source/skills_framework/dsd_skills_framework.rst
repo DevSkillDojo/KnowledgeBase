@@ -4,10 +4,10 @@ DSD Skills Framework
 ====================
 
 Date Release: 2020-03-07
-Version: 0.0.3
+Version: 0.0.5
 
-The diagram below provides a high level depiction of the DevSkillDojo Skills Framework. The intention of this framework is to provide
-a considered method for structuring skills. Additionally, the framework serves as a guideline to prevent one-dimensional thinking
+The diagram below provides a high level depiction of the DevSkillDojo Skills Framework. The intention of this framework is to provide 
+a considered method for structuring skills. Additionally, the framework serves as a guideline to prevent one-dimensional thinking 
 w.r.t. skills, i.e. always equating skills with technologies.
 
 Key Point for understanding the purpose of the framework: Projects and products are delivered by people with capabilities.

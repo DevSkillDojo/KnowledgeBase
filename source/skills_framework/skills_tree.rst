@@ -272,6 +272,12 @@ Development
     * Code Quality 
         * Sonar
         * Checkstyle  
+   * Build Tools
+      * Maven
+         * Concept - Mvn Basics 
+         * Concept - Mvn Multi-Module Projects
+         * Concept - Mvn Profiles
+         * Convept - Mvn Configuration
 
 Testing
 ~~~~~~~
@@ -305,7 +311,11 @@ Deployment and Infrastructure
    * Configuring TLS on Nginx
    * OAuth
 * Version Control
-   * Git Basics
+   * Git
+       * Concept - Git Basics (Init, Status, Clone, Add, Commit, Push, Pull, Fetch, Restore)
+       * Concept - Git Branching (Branch, Checkout, Switch, Merge, Rebase, Tag)
+       * Concept - Git Config (GitIgnore, Set Remotes, Security, Proxy)
+       * Concept - Git Troubleshooting (Mv, Rm, Reset, Diff, Bisect, Log)
 * Apache Httpd
    * Setup and configuration
 * Nginx

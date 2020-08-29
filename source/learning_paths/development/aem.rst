@@ -528,6 +528,8 @@ Blogs and Public Content
    * http://vdua.github.io/aem-forms/samples/axaguidedropdownlist.html#
    * Reasonably useful, but can be rewritten for better clarity
 
+* https://jimfrenette.com/aem/
+
 
 
 
